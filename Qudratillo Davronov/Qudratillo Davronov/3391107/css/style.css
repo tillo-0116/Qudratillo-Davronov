@@ -414,11 +414,13 @@ body {
 }
 .page-8 {
   padding: 50px;
+  width: 60%;
+  margin: 0 auto;
 }
 .page-8-list h1 {
   text-align: center;
-  font-size: 70px;
-  font-weight: 500;
+  font-size: 60px;
+  font-weight: 300;
   letter-spacing: 4px;
   margin-bottom: 20px;
   color: white;
@@ -426,10 +428,10 @@ body {
 }
 .page-8-list h5 {
   text-align: center;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 26px;
+  font-weight: 300;
   color: white;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 .page-8-text {
   display: flex;
@@ -443,28 +445,45 @@ body {
   font-size: 20px;
   color: white;
 }
-.box-layout {
-  width: 450px;
-  height: 40px;
-  border-radius: 30px;
-  text-align: center;
-
+.text-box-list{
+  display: flex;
+  justify-content: space-between;
 }
-.page-8-submit {
-  border:1px solid #dcc3c9;
+.text-box p{
   color: white;
-  padding: 7px 25px;
-  width: 600px;
-  height: 40px;
-  font-weight: 500;
-  margin: 0 auto;
-  text-transform: uppercase;
-  background-color: black;
-  text-align: center;
-  border-radius: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 1px;
 }
-.page-8-submit:hover {
+.text-box{
+  width: 48%;
+  margin-bottom: 30px;
+}
+.text-box input{
+  background-color: #ebe6e7;
+  width: 100%;
+  border: solid #ebe6e7 1px;
+  padding: 13px 10px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+.text-box input::placeholder{
+  color: gray;
+  opacity: 0.8;
+  font-weight: 200;
+}
+.submit{
+  background-color: black;
+  border-radius: 30px;
+  padding: 13px 10px;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.submit:hover {
   border:1px solid #dcc3c9;
   background-color: #dcc3c9;
   color: black;
@@ -474,15 +493,17 @@ body {
   justify-content: space-between;
 }
 .page-8-listitem {
-  width: 30%;
+  width: 32%;
 }
 .page-8-title h3 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  color: white;
 }
 .page-8-title p {
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 25px;
+  color: white;
 }
