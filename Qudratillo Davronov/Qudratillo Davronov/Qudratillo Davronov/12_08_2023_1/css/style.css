@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto';
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* ============================================================================================================================================================== */
+
+
+.fitnes {
+   background-image: url(./image/fon.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+  
+}
+
+.columns{
+    padding: 0 50px 50px 0px;
+    
+}
+
+.fitnes-body{
+    width: 33%;
+    max-width: 280px;
+}
+.col-1 {
+    background-color: #00000087;
+    padding: 20px;
+}
+.col-2 {
+    background-color: #000000a3;
+    padding: 20px;
+}
+
+
+.col-3 {
+    background-color: #000000b9;
+    padding: 20px;
+}
+.img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width:50px ;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.text{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+.freepik {
+    text-align: right;
+}
+.freepik span {
+    border-bottom: 1px solid orangered;
+}
+
+
+

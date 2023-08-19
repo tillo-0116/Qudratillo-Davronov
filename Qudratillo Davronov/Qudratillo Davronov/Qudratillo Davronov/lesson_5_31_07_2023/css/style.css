@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+* {
+    margin: 0;
+    pa: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto';
+    background-color:#292d33 ;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* =========================================================== */
+.piter-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto 40px auto;
+    display: block;
+    border: 5px solid gray;
+    object-fit: cover;
+    }
+.piter-title {
+    color: orangered;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.piter-text {
+    color: white;
+    text-align: center;
+    
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.piter-freepik {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.piter-freepik span {
+    border-bottom: 1px solid white;
+}
+.piter-columns {
+    display: flex;
+    justify-content: space-between;
+}
+.piter-col {
+    width: 20%;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(255,69,0);
+    transition: all 0.4s;
+    margin-top: 10px;
+    border: 3px solid #292d33;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.piter-col:hover{
+    border: 3px solid orange;
+    margin-top: 5px;
+}
